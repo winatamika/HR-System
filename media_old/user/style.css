@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'Caviar Dreams';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Caviar Dreams'), url("font/CaviarDreams.ttf");
+}
+@font-face {
+  font-family: 'Confessions';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Confessions'), url("font/Confessions.ttf");
+}
+.main-header{
+	max-height: 100%;
+}
+@media (max-width: 767px) {
+  .fixed .content-wrapper,
+  .fixed .right-side {
+    padding-top: 50px;
+  }
+  
+  /*.fixed .main-header,
+	.fixed .main-sidebar,
+	.fixed .left-side {
+	  position: relative;
+	}*/
+	
+	
+}
+#company{
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	width: 100%;
+	top: 50%;
+	margin-top: -140px;
+}
+#company #title{
+	font-family: 'Caviar Dreams';
+	font-size: 48px;
+	color: #FFFFFF;
+	text-shadow: 1px 2px 2px #000;
+}
+#company #quote{
+	font-family: 'Confessions';
+	font-size: 40px;
+	color: #FFFFFF;
+	text-shadow: 1px 2px 2px #000;
+}
+.carousel.slide{
+	max-height: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+.carousel.slide .item img{
+	min-height: 100%;
+	min-width: 100%;
+}
+.carousel-control{
+	z-index: 3;
+}
+.bg-menu{
+	background: rgba(0, 0, 0, 0.81) none repeat scroll 0% 0%;
+}
+.content-wrapper, .right-side, .main-footer{
+	background-image: url("img/bg-wood.png");
+}
+.content-wrapper{
+	padding-top: 0px !important;
+}
+.main-footer{
+	font-family: 'Caviar Dreams';
+	color: #FFFFFF;
+}
+.bg-menu{
+	border-bottom: 1px solid #FFFFFF;
+}
+.bg-menu-innershadow{
+	-webkit-box-shadow: inset 0 70px 58px -26px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0 70px 58px -26px rgba(0,0,0,1);
+    box-shadow: inset 0 70px 58px -26px rgba(0,0,0,1);
+	height: 137px;
+}
+.navbar{
+	margin-bottom: 0px;
+	border: none;
+}
+.navbar a{
+	font-family: 'Caviar Dreams';
+	font-size: 18px;
+	color: #dedede;
+}
+/*.navbar-collapse{
+	text-align: center !important;
+}
+
+.navbar-nav{
+	display: inline-block;
+	margin-bottom: -6px;
+	float: none;
+}*/
+.main-header .nav > li > a:hover, .main-header .nav > li > a:focus, .main-header .nav > li.active > a{
+	background: none;
+	/*border-bottom: 3px solid #FFFFFF;*/
+	padding-bottom: 11.5px;
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: 1px 2px 2px #000;
+}
+.main-header .nav > li.sosmed-ico > a{
+	padding: 14px 0px 7px;
+}
+.sosmed-ico a .fa{
+	font-size: 29px;
+}
+.label-white{
+	font-family: 'Caviar Dreams';
+  	color: #FFFFFF;
+  	font-weight: normal;
+}
+.p-white{
+	font-family: 'Caviar Dreams';
+  	color: #FFFFFF;
+  	font-weight: normal;
+}
+.text1-wraper{
+	text-align: center;
+	font-family: 'Caviar Dreams';
+  	color: #FFFFFF;
+  	margin-bottom: 20px;
+}
+.accommodation-list-block img, .gallery-list-block img{
+	width: 100%;
+}
+.accommodation-list-block .info{
+	background: #DEDEDE;
+	margin-bottom: 30px;
+	font-family: 'Caviar Dreams';
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.accommodation-list-block .info .title{
+	font-size: 18px;
+	border-bottom: 1px solid #EEEEEE;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.accommodation-list-block .info .row-detail .row-detail-right{
+	float: right;
+}
+.read-more{
+	text-align: right;
+	margin-top: 10px;
+	cursor: pointer;
+	display: inline-block;
+	background: #664723;
+	padding: 5px 14px;
+	float: right;
+	color: #FFFFFF;
+}
+.no-margin-bottom{
+	margin-bottom: 0px !important;
+}
+.no-border-padding-margin-bottom{
+	font-size: 16px !important;
+	border-bottom: none !important;
+	padding-bottom: 0px !important;
+	margin-bottom: 0px !important;
+}
+.content-header{
+	height: 180px;
+	overflow: hidden;
+	padding-top: 0px;
+	margin-bottom: 15px;
+}
+.content-header-img{
+	width: 100%;
+	position: absolute;
+}
+.content-header .title-white{
+	font-family: 'Caviar Dreams';
+  	color: #FFFFFF;
+  	font-weight: normal;
+  	text-align: center;
+  	position: absolute;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.block-image {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: auto;
+    border: 3px solid #7F715B;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.block-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%
+}
+.block-image:hover {
+    box-shadow: 1px 1px 10px #000000;
+    border: 3px solid #DEDEDE;
+}
+
+.block-image-acco {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.block-image-acco img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;		margin: 5px;
+}
+.block-image-acco:hover {
+    box-shadow: 1px 1px 10px #000000;
+    /*border: 1px solid #DEDEDE;*/
+}
+
+.center-block{
+	float: none;
+}
+.navbar-nav > li > a {
+    line-height: 23px;
+}
+.box-title{
+	font-family: 'Caviar Dreams';
+  	color: #FFFFFF;
+  	font-weight: normal;
+  	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.acco_det_img img{
+	width: 100%;
+}
+.box-widget {
+    border: medium none;
+    position: relative;
+}
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #FFF none repeat scroll 0% 0%;
+    border-top: 3px solid #D2D6DE;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.widget-user-2 .widget-user-header {
+    padding: 20px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.bg-yellow, .callout.callout-warning, .alert-warning, .label-warning, .modal-warning .modal-body {
+    background-color: #201300 !important;
+}
+.nav-stacked > li > a{
+	text-align: left;
+	font-family: 'Caviar Dreams';
+  	color: #FFFFFF;
+  	font-weight: normal;
+  	cursor: normal;
+}
+.nav-stacked > li > a:hover,.nav-stacked > li > a:focus{
+	background: transparent none repeat scroll 0% 0%;
+}
+.nav-stacked > li > a > .fa{
+	margin-top: 3px;
+}
+.box-detail-acco{
+	background: transparent none repeat scroll 0% 0%;
+	box-shadow: none;
+	border: none;
+}
+.box-detail-acco-list{
+	background: transparent none repeat scroll 0% 0%;
+	box-shadow: none;
+}
+.text-detail{
+	font-family: 'Caviar Dreams';
+  	color: #FFFFFF;
+  	font-weight: normal;
+  	margin-top: 20px;
+}
+.ico-title{
+	font-size: 25px;
+	margin: 0px 7px;
+}
+.list-contact-rightside{
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+}
+.list-contact-rightside i{
+	width: 30px;
+	margin-bottom: 8px;
+}
+.contact-list-address{
+	color: #FFF;
+	background: #664723;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+	font-family: 'Caviar Dreams';
+}
+.contact-list-address i{
+	margin-right: 10px;
+}
+.box-no-color{
+	background: none;
+	border-top: none;
+}
+.title_read_more{
+	border-radius: 20px;
+	font-size: 12px;
+	vertical-align: top;
+	margin-top: 0px;
+}
